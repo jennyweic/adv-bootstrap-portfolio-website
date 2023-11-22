@@ -94,6 +94,17 @@ a:visited {
   padding: 5px;
 }
 
+/* HOMEPAGE PORTFOLIO SECTION */
+
+#portfolio-btn {
+  border: 0.5px solid var(--button-contact-color);
+  border-radius: 15px;
+  background-color: var(--button-contact-color);
+  color: var(--button-text-color);
+  padding: 10px;
+  margin: 15px 0 10px 0;
+}
+
 /* ABOUT PAGE CSS */
 /* onpage buttons - css */
 #btn-home {
