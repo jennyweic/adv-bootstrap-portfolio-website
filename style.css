@@ -162,14 +162,18 @@ a:visited,
   border-radius: 30px;
   padding: 35px;
 }
-
-#contact {
-  display: flex;
-  justify-content: center;
-}
+/* 
+.grid-container#learned-fav-projects {
+  
+  background-color: #ebc0fd;
+  border: 1px solid black;
+} */
 
 .contact-section {
   display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content: center;
   column-gap: 30px;
   background-color: var(--background-block-contact-color);
   border: 1px solid var(--background-block-contact-color);
@@ -177,7 +181,6 @@ a:visited,
   margin-left: 55px;
   margin-right: 55px;
   padding: 25px;
-  align-items: center;
 }
 
 /* UNIVERSAL MEDIA QUERY ACROSS SITE */
