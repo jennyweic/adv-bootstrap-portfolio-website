@@ -162,12 +162,20 @@ a:visited,
   border-radius: 30px;
   padding: 35px;
 }
-/* 
+
 .grid-container#learned-fav-projects {
-  
+  padding: 15px;
+  margin: 25px;
   background-color: #ebc0fd;
   border: 1px solid black;
-} */
+}
+
+.col-md-4 {
+  margin: 10px 0px 10px 0px;
+  padding: 25px;
+  width: 100%;
+  height: auto;
+}
 
 .contact-section {
   display: flex;
