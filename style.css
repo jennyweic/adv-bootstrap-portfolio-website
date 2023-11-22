@@ -85,15 +85,18 @@ a:visited,
 
 /* HOMEPAGE PORTFOLIO SECTION */
 .container {
-  border: 1px solid grey;
-  background: lightcyan;
   margin: 25px;
 }
 
-.row,
+.row {
+  padding: 10px 0 10px 0;
+}
+
+/* I LOVE THIS BOX SHADOW EFFECT */
 .col-md-6 {
-  border: 0.5px solid grey;
-  padding: 15px 0 5px 0;
+  padding: 40px 0 40px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 #portfolio-btn {
@@ -113,6 +116,14 @@ a:visited,
   background-color: green;
   border: var(--button-color);
   transition: all 200ms ease-in-out;
+}
+
+/* PORTFOLIO COLOUR BKG BLOCKS */
+#left-block-text,
+#right-block-text {
+  background: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 /* ABOUT PAGE CSS */
