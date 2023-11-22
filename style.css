@@ -1,0 +1,122 @@
+:root {
+  --background-block-color: lightpink;
+  --background-block-contact-color: lightblue;
+  --button-contact-color: blueviolet;
+  --button-color: rgb(43, 92, 11);
+  --button-text-color: whitesmoke;
+  --button-text-color-whitebg: blueviolet;
+  --box-shadow: 0 15px 20px rgb(0, 0, 0, 0.5);
+}
+
+body {
+  margin-top: 50px;
+}
+
+h1,
+h2,
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 30px;
+}
+
+h2 {
+  margin: 5px;
+  padding: 10px;
+}
+
+h4 {
+  line-height: 20px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.page-links {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+}
+
+a:visited {
+  color: green;
+}
+
+#btn-contact {
+  border: 1px solid var(--button-contact-color);
+  border-radius: 15px;
+  background: var(--button-contact-color);
+  padding: 20px;
+  margin: 5px auto;
+  box-shadow: var(--box-shadow);
+}
+
+#link-contact {
+  color: whitesmoke;
+}
+
+#link-about {
+  color: var(--button-text-color-whitebg);
+  font-weight: bold;
+}
+
+#btn-about {
+  border: 1px solid var(--button-text-color-whitebg);
+  border-radius: 15px;
+  background: whitesmoke;
+  padding: 20px;
+  margin: 5px auto;
+  box-shadow: var(--box-shadow);
+}
+
+#btn-home {
+  background: var(--button-color);
+  border: 1px solid blueviolet;
+  color: var(--button-text-color);
+  padding: 10px;
+}
+
+.about-1 {
+  display: flex;
+  flex-flow: column-wrap;
+  justify-content: space-evenly;
+  column-gap: 30px;
+  margin: 55px;
+  background-color: var(--background-block-color);
+  border: 1px solid var(--background-block-color);
+  border-radius: 30px;
+  padding: 35px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  column-gap: 30px;
+  background-color: var(--background-block-contact-color);
+  border: 1px solid var(--background-block-contact-color);
+  border-radius: 30px;
+  margin-left: 55px;
+  margin-right: 55px;
+  padding: 25px;
+  align-items: center;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  h2 {
+    line-height: 35px;
+  }
+}
