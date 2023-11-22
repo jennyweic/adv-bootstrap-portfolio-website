@@ -32,7 +32,8 @@ a {
   padding: 15px;
 }
 /* hyperlinks  */
-a:visited {
+a:visited,
+.project-text-link {
   color: green;
 }
 
@@ -82,19 +83,18 @@ a:visited {
   box-shadow: var(--box-shadow);
 }
 
+/* HOMEPAGE PORTFOLIO SECTION */
 .container {
   border: 1px solid grey;
   background: lightcyan;
-  margin-top: 50px;
+  margin: 25px;
 }
 
 .row,
 .col-md-6 {
   border: 0.5px solid grey;
-  padding: 5px;
+  padding: 15px 0 5px 0;
 }
-
-/* HOMEPAGE PORTFOLIO SECTION */
 
 #portfolio-btn {
   border: 0.5px solid var(--button-contact-color);
@@ -103,6 +103,16 @@ a:visited {
   color: var(--button-text-color);
   padding: 10px;
   margin: 15px 0 10px 0;
+}
+
+.project-text-link {
+  color: var(--button-text-color);
+}
+
+#portfolio-btn:hover {
+  background-color: green;
+  border: var(--button-color);
+  transition: all 200ms ease-in-out;
 }
 
 /* ABOUT PAGE CSS */
