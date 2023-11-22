@@ -126,6 +126,11 @@ a:visited,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+#left-block-image,
+#right-block-image {
+  vertical-align: middle;
+}
+
 /* ABOUT PAGE CSS */
 /* onpage buttons - css */
 #btn-home {
