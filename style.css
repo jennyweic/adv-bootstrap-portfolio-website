@@ -41,6 +41,17 @@ a:visited,
   color: green;
 }
 
+footer {
+  font-size: 18px;
+  padding-top: 35px;
+  padding-bottom: 80px;
+}
+
+footer:hover {
+  transform: scale(1.5);
+  color: lightseagreen;
+}
+
 /* HOMEPAGE CSS */
 .onpage-links {
   display: flex;
