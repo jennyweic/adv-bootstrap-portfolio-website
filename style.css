@@ -167,6 +167,7 @@ h5 {
 .container {
   padding: 10px;
   column-gap: 5px;
+  margin-bottom: 50px;
 }
 
 .col-md-4 {
@@ -194,8 +195,8 @@ h5 {
   background-color: var(--background-block-contact-color);
   border: 1px solid var(--background-block-contact-color);
   border-radius: 30px;
-  margin: 10px 55px 20px 55px;
-  padding: 5px 0 5px 0;
+  margin: 10px 55px 55px 55px;
+  padding: 20px 0 20px 0;
 }
 
 /* UNIVERSAL MEDIA QUERY ACROSS SITE */
