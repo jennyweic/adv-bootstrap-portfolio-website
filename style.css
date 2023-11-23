@@ -164,22 +164,28 @@ a:visited,
 }
 
 /* project section */
+
+h5 {
+  padding: 10px;
+}
 .container {
-  padding: 5px;
-  border: 1px solid #ebc0fd;
+  padding: 10px;
+  column-gap: 5px;
 }
 
 .col-md-4 {
-  margin: 10px 0px 0px 0px;
-  padding: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.08) 0px 1px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 5px;
+  height: 480px;
 }
 
 .column-img {
-  margin-top: 10px;
+  display: block;
+  margin: auto;
   border: 5px solid #d9ded8;
+  border-radius: 5px;
+  max-height: 50%;
+  background-color: white;
 }
 
 /* connect with me section */
@@ -201,5 +207,17 @@ a:visited,
 @media (min-width: 400px) and (max-width: 600px) {
   h2 {
     line-height: 35px;
+  }
+
+  .col-md-4 {
+    padding: 10px;
+    margin: 5px;
+    height: 100%;
+    border: 1px solid #ebc0fd;
+  }
+
+  .column-img {
+    height: 30%;
+    width: 80%;
   }
 }
