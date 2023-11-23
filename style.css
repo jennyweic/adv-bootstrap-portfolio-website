@@ -84,13 +84,13 @@ a:visited,
 }
 
 /* HOMEPAGE PORTFOLIO SECTION */
-.container {
+.container.homepage {
   margin: 25px;
 }
 
-.row {
-  padding: 10px 0 10px 0;
-  margin: 0 auto;
+.row.homepage {
+  padding: 5px;
+  margin: 5px auto;
   align-items: center;
   vertical-align: middle;
 }
@@ -204,10 +204,12 @@ h5 {
 
 /* UNIVERSAL MEDIA QUERY ACROSS SITE */
 @media (min-width: 400px) and (max-width: 600px) {
+  /* homepage */
   h2 {
     line-height: 35px;
   }
 
+  /* about page */
   .col-md-4 {
     padding: 10px;
     margin: 5px;
