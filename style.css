@@ -141,20 +141,7 @@ a:visited,
 
 /* ABOUT PAGE CSS */
 /* onpage buttons - css */
-#btn-home {
-  background: var(--button-color);
-  border: 1px solid var(--button-color);
-  border-radius: 15px;
-  color: var(--button-text-color);
-  padding: 10px;
-  text-decoration: none;
-}
 
-#btn-home:hover {
-  background-color: var(--button-text-color-whitebg);
-  border: 1px solid var(--button-text-color-whitebg);
-  transition: all 200ms ease-in-out;
-}
 /* first para */
 .about-para {
   display: flex;
