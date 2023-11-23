@@ -164,33 +164,22 @@ a:visited,
 }
 
 /* project section */
+.container {
+  padding: 5px;
+  border: 1px solid #ebc0fd;
+}
 
 .col-md-4 {
-  margin: 10px 0px 10px 0px;
-  padding: 25px;
-  width: 100%;
-  height: auto;
+  margin: 10px 0px 0px 0px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.08) 0px 1px 2px 0px;
+  border-radius: 5px;
 }
 
-#about-project-heading {
-  font-size: 35px;
-  font-weight: 500;
-}
-/* parent grid */
-.grid-container#learned-fav-projects {
-  padding: 15px;
-  margin: 25px;
-  border: 1px solid black;
-  display: grid;
-  justify-content: space-evenly;
-  align-content: start;
-}
-/* child grid */
-#project-grid {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  justify-items: stretch;
-  align-items: center;
+.column-img {
+  margin-top: 10px;
+  border: 5px solid #d9ded8;
 }
 
 /* connect with me section */
