@@ -198,9 +198,8 @@ h5 {
   background-color: var(--background-block-contact-color);
   border: 1px solid var(--background-block-contact-color);
   border-radius: 30px;
-  margin-left: 55px;
-  margin-right: 55px;
-  padding: 25px;
+  margin: 10px 55px 20px 55px;
+  padding: 5px 0 5px 0;
 }
 
 /* UNIVERSAL MEDIA QUERY ACROSS SITE */
