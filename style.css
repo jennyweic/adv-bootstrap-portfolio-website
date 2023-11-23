@@ -85,7 +85,7 @@ a:visited,
 
 /* HOMEPAGE PORTFOLIO SECTION */
 .container.homepage {
-  margin: 25px;
+  margin: 25px auto;
 }
 
 .row.homepage {
