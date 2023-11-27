@@ -211,7 +211,7 @@ h5 {
 }
 
 /* UNIVERSAL MEDIA QUERY ACROSS SITE */
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 550px) {
   /* homepage */
   h2 {
     line-height: 35px;
