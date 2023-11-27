@@ -219,14 +219,14 @@ h5 {
 
   /* about page */
   .col-md-4 {
-    padding: 10px;
-    margin: 5px;
-    height: 100%;
+    padding: 0 20px 0 20px;
+    margin: 10px;
+    height: 0 auto;
     border: 1px solid #ebc0fd;
   }
 
   .column-img {
-    height: 30%;
-    width: 80%;
+    height: 50%;
+    width: 0 auto;
   }
 }
