@@ -211,7 +211,7 @@ h5 {
 }
 
 /* UNIVERSAL MEDIA QUERY ACROSS SITE */
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 550px) {
   /* homepage */
   h2 {
     line-height: 35px;
@@ -219,14 +219,14 @@ h5 {
 
   /* about page */
   .col-md-4 {
-    padding: 10px;
-    margin: 5px;
-    height: 100%;
+    padding: 0 20px 0 20px;
+    margin: 10px;
+    height: 0 auto;
     border: 1px solid #ebc0fd;
   }
 
   .column-img {
-    height: 30%;
-    width: 80%;
+    height: 50%;
+    width: 0 auto;
   }
 }
